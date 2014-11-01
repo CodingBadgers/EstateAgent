@@ -1,11 +1,9 @@
 name: EstateAgent
-version: 1.0.0
-main: uk.thecodingbadgers.estateagent.EstateAgent
-authors: [n3wton, TheFish97]
-description: Region buying and selling plugin for Bukkit
+main: n3wton.estate.agent.EstateAgent
+version: 1.00
+softdepend: [Vault, WorldGuard]
 
 commands:
-    estateagent:
-        description: EstateAgent Command
-        usage: /ea <command> <args>
-        aliases: [ea]
+    ea:
+        description: Estate Agent Plugin Commands.
+        usage: /<command>
